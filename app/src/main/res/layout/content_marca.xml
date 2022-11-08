@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="dispo.train.fcba.cl.flotatrainmovil.views.MarcaActivity"
+    tools:showIn="@layout/activity_marca">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:gravity="center">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="N°INTERNO"></TextView>
+
+                <TextView
+                    android:id="@+id/tvInterno"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txtEmpty"
+                    android:textStyle="bold"></TextView>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5dp"
+                    android:text="PATENTE"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPatente"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/txtEmpty"
+                    android:layout_weight="1"
+                    android:textStyle="bold"></TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:text="AÑO"></TextView>
+
+                <TextView
+                    android:id="@+id/tvAnio"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="@string/txtEmpty"
+                    android:textStyle="bold"></TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:text="MODELO"></TextView>
+
+                <TextView
+                    android:id="@+id/tvModelo"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="@string/txtEmpty"
+                    android:textStyle="bold"></TextView>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OBSERVACIÓN MARCA MANTENCIÓN"/>
+        <EditText
+            android:id="@+id/etOBS"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="MAX 100 CARAC.">
+        </EditText>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="FECHA MARCA"></TextView>
+                <EditText
+                    android:id="@+id/etFechaMarca"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:focusable="false"
+                    android:hint="DD/MM/YYYY"></EditText>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="HORA MARCA"></TextView>
+                <EditText
+                    android:id="@+id/etHoraMarca"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:layout_height="match_parent"
+                    android:hint="HH:MM"></EditText>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+
+                    android:text="LUGAR REPARACIÓN"></TextView>
+
+                <Spinner
+                    android:id="@+id/sLugarReparac"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="@string/txtEmpty"
+                    android:textStyle="bold"></Spinner>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+
+                    android:text="TIPO REPARACIÓN"></TextView>
+
+                <Spinner
+                    android:id="@+id/sTipo"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="@string/txtEmpty"
+                    android:textStyle="bold"></Spinner>
+            </TableRow>
+        </TableLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCC"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="USUARIO MARCA"></TextView>
+
+                <TextView
+                    android:id="@+id/tvUsuarioMarca"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="@string/txtEmpty"
+                    android:textStyle="bold"></TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="ÚLTIMA MANTE"></TextView>
+
+                <TextView
+                    android:id="@+id/tvUltMante"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="@string/txtEmpty"
+                    android:textStyle="bold"></TextView>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="AL"></TextView>
+
+                <TextView
+                    android:id="@+id/tvAltMante"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="@string/txtEmpty"
+                    android:textStyle="bold"></TextView>
+            </TableRow>
+        </TableLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp">
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg_color"
+                android:textColor="#FFF"
+                android:onClick="onMarcar"
+                android:text="MARCAR"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

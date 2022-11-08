@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="dispo.train.fcba.cl.flotatrainmovil.views.DesmarcaActivity"
+    tools:showIn="@layout/activity_desmarca">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:layout_margin="20dp">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="N°INTERNO"></TextView>
+
+        <TextView
+            android:id="@+id/tvInternoD"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/txtEmpty"
+            android:textStyle="bold"></TextView>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:text="PATENTE"></TextView>
+
+        <TextView
+            android:id="@+id/tvPatenteD"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/txtEmpty"
+            android:textStyle="bold"></TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:text="AÑO"></TextView>
+
+        <TextView
+            android:id="@+id/tvAnioD"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/txtEmpty"
+            android:textStyle="bold"></TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:text="MODELO"></TextView>
+
+        <TextView
+            android:id="@+id/tvModeloD"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/txtEmpty"
+            android:textStyle="bold"></TextView>
+    </TableRow>
+</TableLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCC"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:text="FECHA MARCA"></TextView>
+
+            <TextView
+                android:id="@+id/tvFechaMarcaD"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/txtEmpty"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:text="HORA MARCA"></TextView>
+
+            <TextView
+                android:id="@+id/tvHoraMarcaD"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/txtEmpty"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:text="USUARIO MARCA"></TextView>
+
+            <TextView
+                android:id="@+id/tvUsuarioMarcaD"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/txtEmpty"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="OBSERVACIÓN MARCA MANTENCIÓN" />
+
+    <TextView
+        android:id="@+id/tvOBSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/txtEmpty"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCC"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <CheckBox
+        android:id="@+id/checkBoxCambioNeumaticos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="CAMBIO DE NEUMÁTICOS"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorAccent" />
+
+    <TableLayout
+        android:id="@+id/layoutCambioNeumaticos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:visibility="gone">
+
+        <TableRow android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="VULCANIZADOR: "
+                android:textColor="@color/colorPrimary" />
+
+            <RadioGroup
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/vulcanizador1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vulcanizador A"
+                    android:textColor="@color/colorPrimary" />
+
+                <RadioButton
+                    android:id="@+id/vulcanizador2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vulcanizador B"
+                    android:textColor="@color/colorPrimary" />
+
+                <RadioButton
+                    android:id="@+id/vulcanizador3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vulcanizador C"
+                    android:textColor="@color/colorPrimary" />
+
+                <RadioButton
+                    android:id="@+id/vulcanizador4"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:text="Otro"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/editTextOtroVulcanizador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14sp" />
+
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="POSICIÓN:"
+                android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/TexViewtPosicion"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#CCC" />
+    </TableLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OBSERVACIÓN DESMARCA"/>
+    <EditText
+        android:id="@+id/etOBSD"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="MAX 100 CARAC."/>
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="FECHA DESMARCA"></TextView>
+
+        <EditText
+            android:id="@+id/etFechaDesmarca"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:hint="DD/MM/YYYY"></EditText>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="HORA DESMARCA"></TextView>
+        <EditText
+            android:id="@+id/etHoraDesmarca"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:hint="HH:MM"></EditText>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="USUARIO DESMARCA"></TextView>
+
+        <TextView
+            android:id="@+id/tvUsuarioDesmarcaD"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/txtEmpty"
+            android:textStyle="bold"></TextView>
+    </TableRow>
+</TableLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg_color"
+            android:textColor="#FFF"
+            android:onClick="onDesmarcar"
+            android:text="DESMARCAR"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

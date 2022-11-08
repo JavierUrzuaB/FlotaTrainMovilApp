@@ -1,0 +1,4 @@
+#Wed Oct 26 18:51:31 CLST 2022
+base.0=/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml",
+            "map": [
+                {
+                    "source": "/Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/270efe2dc88e3688f832465815085871/play-services-basement-9.8.0/res/values-be/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "204",
+                        "endOffsets": "489"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "204",
+                        "endOffsets": "305"
+                    }
+                }
+            ]
+        }
+    ]
+}

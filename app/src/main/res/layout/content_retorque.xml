@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="dispo.train.fcba.cl.flotatrainmovil.views.RetorqueActivity"
+    tools:showIn="@layout/activity_retorque"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:onClick="onManten">
+                <TextView
+                    android:id="@+id/tvRetorque"
+                    android:layout_height="80dp"
+                    android:layout_width="match_parent"
+                    android:background="#ff0000"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="40sp"
+                    android:text="3"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="EQUIPOS DE RETORQUE"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="3">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvItem0col1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="N° INTERNO"
+                    android:textColor="@android:color/background_light" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tvItem0col2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="POSICIONES"
+                    android:textColor="@android:color/background_light" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tvItem0col3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="FECHA MARCA"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="397dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:gravity="center"
+            android:onClick="onDetalle">
+
+            <TextView
+                android:id="@+id/tvItem1col1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="E-42"
+                android:textColor="@color/colorPrimary" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvItem1col2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1 y 2"
+                android:textColor="@color/colorPrimary" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvItem1col3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="12/12/2020"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+    </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="397dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvItem2col1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="E-43"
+                    android:textColor="@color/colorPrimary" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tvItem2col2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="11 y 22"
+                    android:textColor="@color/colorPrimary" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tvItem2col3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="13/12/2020"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="412dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvItem3col1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="395"
+                    android:textColor="@color/colorPrimary" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tvItem3col2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="7, 8, 9 y 10"
+                    android:textColor="@color/colorPrimary" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tvItem3col3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="16/12/2020"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <dispo.train.fcba.cl.flotatrainmovil.helpers.NestedListView
+        android:id="@+id/lvEquiposRetorque"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </dispo.train.fcba.cl.flotatrainmovil.helpers.NestedListView>
+
+</LinearLayout>

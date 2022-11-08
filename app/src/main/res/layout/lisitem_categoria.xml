@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txFechaConsulta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="FECHA CONSULTA: DD/MM/YYYY" />
+
+                <TextView
+                    android:id="@+id/txFlota"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="FLOTA: 56 de 67" />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/uno"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <!--ACTUAL-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout">
+                    <TextView
+                        android:id="@+id/tvActual"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ACTUAL:" />
+
+                    <TextView
+                        android:id="@+id/tvActualR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_toEndOf="@+id/tvActual"
+                        android:layout_toRightOf="@+id/tvActual"
+                        android:text="87.07" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/tvActualR"
+                        android:layout_toRightOf="@+id/tvActualR"
+                        android:text="%" />
+                </LinearLayout>
+
+                <!--PARCIAL-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+                    <TextView
+                        android:id="@+id/tvParcial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PARCIAL:"
+                        android:layout_below="@+id/tvActual"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:id="@+id/tvParcialR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="87.07"
+                        android:layout_alignBaseline="@+id/textView3"
+                        android:layout_alignBottom="@+id/textView3"
+                        android:layout_toLeftOf="@+id/textView"
+                        android:layout_toStartOf="@+id/textView" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView"
+                        android:layout_toEndOf="@+id/tvParcialR"
+                        android:layout_toRightOf="@+id/tvParcialR"
+                        android:text="%"
+                        android:id="@+id/textView3" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/dos"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <!--MES-->
+                <TextView
+                    android:id="@+id/tvMarzo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MARZO:" />
+
+                <TextView
+                    android:id="@+id/tvMarzoR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_toEndOf="@+id/tvMarzo"
+                    android:layout_toRightOf="@+id/tvMarzo"
+                    android:text="87.07" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/tvMarzoR"
+                    android:layout_toRightOf="@+id/tvMarzoR"
+                    android:text="%" />
+
+                <!--AÑO-->
+                <TextView
+                    android:id="@+id/tvAnual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvMarzo"
+                    android:text="2017:" />
+
+                <TextView
+                    android:id="@+id/tvAnualR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvMarzo"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_toEndOf="@+id/tvAnual"
+                    android:layout_toRightOf="@+id/tvAnual"
+                    android:text="87.07" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvMarzoR"
+                    android:layout_toEndOf="@+id/tvAnualR"
+                    android:layout_toRightOf="@+id/tvAnualR"
+                    android:text="%" />
+            </RelativeLayout>
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

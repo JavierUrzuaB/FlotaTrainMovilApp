@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="dispo.train.fcba.cl.flotatrainmovil.views.DetalleRetorqueActivity"
+    tools:showIn="@layout/activity_detalleretorque">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:layout_margin="20dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="N°INTERNO"></TextView>
+
+            <TextView
+                android:id="@+id/tvInternoD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="E-42"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="PATENTE"></TextView>
+
+            <TextView
+                android:id="@+id/tvPatenteD"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="CYTY-80"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="AÑO"></TextView>
+
+            <TextView
+                android:id="@+id/tvAnioD"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="2011"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="MODELO"></TextView>
+
+            <TextView
+                android:id="@+id/tvModeloD"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="INTERNATIONAL 9200I"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+    </TableLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCC"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:text="FECHA MARCA"></TextView>
+
+            <TextView
+                android:id="@+id/tvFechaMarcaD"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="13/12/2020"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:text="HORA MARCA"></TextView>
+
+            <TextView
+                android:id="@+id/tvHoraMarcaD"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="09:20 hrs"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:text="USUARIO MARCA"></TextView>
+
+            <TextView
+                android:id="@+id/tvUsuarioMarcaD"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="VULCANIZADOR A"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="OBSERVACIÓN MARCA MANTENCIÓN" />
+
+    <TextView
+        android:id="@+id/tvOBSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/txtEmpty"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:text="POSICIÓN:"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/TexViewPosicion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:text="1, 2, 3, 4, 5, 6, 7, 8, 9 Y 10"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#CCC" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg_color"
+            android:textColor="#FFF"
+            android:onClick="onDesmarcar"
+            android:text="DESMARCAR"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,279 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dispo.train.fcba.cl.flotatrainmovil"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="25" />
+9-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+11-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:5:5-71
+11-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:5:22-68
+12    <uses-permission android:name="android.permission.READ_PROFILE" />
+12-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:6:5-71
+12-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.READ_CONTACTS" />
+13-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:7:5-72
+13-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:7:22-69
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:8:5-67
+14-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:9:5-76
+15-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:9:22-73
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:10:5-79
+16-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:10:22-76
+17
+18    <permission
+18-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:11:5-115
+19        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+19-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:11:17-77
+20        android:protectionLevel="signature" />
+20-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:11:78-113
+21
+22    <meta-data
+22-->[com.android.support:design:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/9d70d0df2a417cf4d993166cfff99b6f/design-25.3.1/AndroidManifest.xml:25:5-27:34
+23        android:name="android.support.VERSION"
+23-->[com.android.support:design:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/9d70d0df2a417cf4d993166cfff99b6f/design-25.3.1/AndroidManifest.xml:26:9-47
+24        android:value="25.3.1" />
+24-->[com.android.support:design:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/9d70d0df2a417cf4d993166cfff99b6f/design-25.3.1/AndroidManifest.xml:27:9-31
+25
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:21:5-67
+26-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:21:22-65
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:22:5-81
+27-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:22:22-79
+28
+29    <permission
+29-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:24:5-109
+30        android:name="dispo.train.fcba.cl.flotatrainmovil.permission.C2D_MESSAGE"
+30-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:24:17-71
+31        android:protectionLevel="signature" />
+31-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:24:72-107
+32
+33    <uses-permission android:name="dispo.train.fcba.cl.flotatrainmovil.permission.C2D_MESSAGE" />
+33-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:26:5-78
+33-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:26:22-76
+34
+35    <application
+35-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:12:5-78:19
+36        android:allowBackup="true"
+36-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:13:9-35
+37        android:debuggable="true"
+38        android:icon="@drawable/ic_launcher"
+38-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:14:9-45
+39        android:label="Train Móvil"
+39-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:15:9-36
+40        android:roundIcon="@drawable/ic_launcher"
+40-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:16:9-50
+41        android:supportsRtl="true"
+41-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:17:9-35
+42        android:testOnly="true"
+43        android:theme="@style/AppTheme" >
+43-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:18:9-40
+44        <activity
+44-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:19:9-23:20
+45            android:name="dispo.train.fcba.cl.flotatrainmovil.views.LoginActivity"
+45-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:20:13-48
+46            android:label="Train Móvil" >
+46-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:21:13-40
+47        </activity>
+48        <activity
+48-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:24:9-34:20
+49            android:name="dispo.train.fcba.cl.flotatrainmovil.views.HomeActivity"
+49-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:25:13-47
+50            android:label="@string/title_activity_home"
+50-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:26:13-56
+51            android:screenOrientation="portrait"
+51-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:27:13-49
+52            android:theme="@style/AppTheme.NoActionBar" >
+52-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:28:13-56
+53            <intent-filter>
+53-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:29:13-33:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:30:17-69
+54-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:30:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:32:17-77
+56-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:32:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:35:9-38:59
+60            android:name="dispo.train.fcba.cl.flotatrainmovil.views.FlotaActivity"
+60-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:36:13-48
+61            android:label="@string/title_activity_flota"
+61-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:37:13-57
+62            android:theme="@style/AppTheme.NoActionBar" />
+62-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:38:13-56
+63        <activity
+63-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:39:9-42:59
+64            android:name="dispo.train.fcba.cl.flotatrainmovil.views.MarcaActivity"
+64-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:40:13-48
+65            android:label="@string/title_activity_marca"
+65-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:41:13-57
+66            android:theme="@style/AppTheme.NoActionBar" />
+66-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:42:13-56
+67        <activity
+67-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:43:9-46:59
+68            android:name="dispo.train.fcba.cl.flotatrainmovil.views.DesmarcaActivity"
+68-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:44:13-51
+69            android:label="@string/title_activity_desmarca"
+69-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:45:13-60
+70            android:theme="@style/AppTheme.NoActionBar" />
+70-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:46:13-56
+71        <activity
+71-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:47:9-50:59
+72            android:name="dispo.train.fcba.cl.flotatrainmovil.views.DispoActivity"
+72-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:48:13-48
+73            android:label="@string/title_activity_dispo"
+73-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:49:13-57
+74            android:theme="@style/AppTheme.NoActionBar" />
+74-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:50:13-56
+75        <activity
+75-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:51:9-54:59
+76            android:name="dispo.train.fcba.cl.flotatrainmovil.views.CategoriasActivity"
+76-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:52:13-53
+77            android:label="@string/title_activity_categorias"
+77-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:53:13-62
+78            android:theme="@style/AppTheme.NoActionBar" />
+78-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:54:13-56
+79        <activity
+79-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:55:9-58:59
+80            android:name="dispo.train.fcba.cl.flotatrainmovil.views.RetorqueActivity"
+80-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:56:13-51
+81            android:label="Retorque"
+81-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:57:13-37
+82            android:theme="@style/AppTheme.NoActionBar" />
+82-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:58:13-56
+83        <activity
+83-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:59:9-62:59
+84            android:name="dispo.train.fcba.cl.flotatrainmovil.views.DetalleRetorqueActivity"
+84-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:60:13-58
+85            android:label="Detalle Retorque"
+85-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:61:13-45
+86            android:theme="@style/AppTheme.NoActionBar" />
+86-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:62:13-56
+87
+88        <service android:name="dispo.train.fcba.cl.flotatrainmovil.views.MyFirebaseMessagingService" >
+88-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:64:9-68:19
+88-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:64:18-66
+89            <intent-filter>
+89-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:65:13-67:29
+90                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+90-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:66:17-78
+90-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:66:25-75
+91            </intent-filter>
+92        </service>
+93        <service android:name="dispo.train.fcba.cl.flotatrainmovil.views.MyFirebaseInstanceIDService" >
+93-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:69:9-73:19
+93-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:69:18-67
+94            <intent-filter>
+94-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:70:13-72:29
+95                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+95-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:71:17-80
+95-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:71:25-77
+96            </intent-filter>
+97        </service>
+98
+99        <activity
+99-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:75:9-77:72
+100            android:name="dispo.train.fcba.cl.flotatrainmovil.views.SettingsActivity"
+100-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:76:13-51
+101            android:label="@string/title_activity_settings" />
+101-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:77:13-60
+102        <!--
+103         FirebaseMessagingService performs security checks at runtime,
+104             no need for explicit permissions despite exported="true"
+105        -->
+106        <service
+106-->[com.google.firebase:firebase-messaging:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a291ec42c4b97e31a45b0bb66c62df9a/firebase-messaging-9.8.0/AndroidManifest.xml:23:9-27:19
+107            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+107-->[com.google.firebase:firebase-messaging:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a291ec42c4b97e31a45b0bb66c62df9a/firebase-messaging-9.8.0/AndroidManifest.xml:23:18-87
+108            android:exported="true" >
+108-->[com.google.firebase:firebase-messaging:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a291ec42c4b97e31a45b0bb66c62df9a/firebase-messaging-9.8.0/AndroidManifest.xml:23:88-111
+109            <intent-filter android:priority="-500" >
+109-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:65:13-67:29
+110                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+110-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:66:17-78
+110-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:66:25-75
+111            </intent-filter>
+112        </service>
+113
+114        <receiver
+114-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:30:9-36:20
+115            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+115-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:30:19-84
+116            android:exported="true"
+116-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:30:85-108
+117            android:permission="com.google.android.c2dm.permission.SEND" >
+117-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:30:109-169
+118            <intent-filter>
+118-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:31:13-35:29
+119                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+119-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:32:17-80
+119-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:32:25-78
+120                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+120-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:33:17-85
+120-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:33:25-83
+121
+122                <category android:name="dispo.train.fcba.cl.flotatrainmovil" />
+122-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:34:17-60
+122-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:34:27-58
+123            </intent-filter>
+124        </receiver>
+125        <!--
+126 Internal (not exported) receiver used by the app to start its own exported services
+127             without risk of being spoofed.
+128        -->
+129        <receiver
+129-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:40:9-119
+130            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+130-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:40:19-92
+131            android:exported="false" />
+131-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:40:93-117
+132        <!--
+133 FirebaseInstanceIdService performs security checks at runtime,
+134             no need for explicit permissions despite exported="true"
+135        -->
+136        <service
+136-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:44:9-48:19
+137            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+137-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:44:18-82
+138            android:exported="true" >
+138-->[com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:44:83-106
+139            <intent-filter android:priority="-500" >
+139-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:70:13-72:29
+140                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+140-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:71:17-80
+140-->/Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:71:25-77
+141            </intent-filter>
+142        </service>
+143
+144        <provider
+144-->[com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:6:9-175
+145            android:name="com.google.firebase.provider.FirebaseInitProvider"
+145-->[com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:6:79-124
+146            android:authorities="dispo.train.fcba.cl.flotatrainmovil.firebaseinitprovider"
+146-->[com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:6:19-78
+147            android:exported="false"
+147-->[com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:6:125-149
+148            android:initOrder="100" />
+148-->[com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:6:150-173
+149
+150        <meta-data
+150-->[com.google.android.gms:play-services-basement:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d6a8924ae41ede1b712717dd806efc1a/play-services-basement-9.8.0/AndroidManifest.xml:20:9-121
+151            android:name="com.google.android.gms.version"
+151-->[com.google.android.gms:play-services-basement:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d6a8924ae41ede1b712717dd806efc1a/play-services-basement-9.8.0/AndroidManifest.xml:20:20-65
+152            android:value="@integer/google_play_services_version" />
+152-->[com.google.android.gms:play-services-basement:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d6a8924ae41ede1b712717dd806efc1a/play-services-basement-9.8.0/AndroidManifest.xml:20:66-119
+153    </application>
+154
+155</manifest>

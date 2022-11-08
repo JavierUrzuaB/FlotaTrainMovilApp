@@ -1,0 +1,401 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:2:1-80:12
+MERGED from [com.android.support:design:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/9d70d0df2a417cf4d993166cfff99b6f/design-25.3.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/7d943bc771bd531b19a1648b19236561/appcompat-v7-25.3.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/356aa50065b07ad8ce6ef3dbe610ddfa/constraint-layout-1.0.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a291ec42c4b97e31a45b0bb66c62df9a/firebase-messaging-9.8.0/AndroidManifest.xml:16:1-30:12
+MERGED from [com.android.support:transition:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/aad5c5c186c23c9fd3d0c8bda698b3d8/transition-25.3.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:16:1-51:12
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/83c62cf18dbf7512ba8e2242225cb8ba/play-services-tasks-9.8.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d6a8924ae41ede1b712717dd806efc1a/play-services-basement-9.8.0/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/b213fe1c5b6dc34a9b7eab8e78566c31/support-v4-25.3.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/e03f815f734469ab6891c7712b5d56b4/animated-vector-drawable-25.3.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a6d644d8887143b1f8ffa86282acfa8c/support-vector-drawable-25.3.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d614803624a6cf04fa2a367964a5f85d/recyclerview-v7-25.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/f199acccab6744ad532880b995d7b4fd/support-fragment-25.3.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a368e7dbbbf8e255a0347c0c57be2de1/support-media-compat-25.3.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/bdbe26b62b3a288becada93755b0a5e8/support-core-utils-25.3.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/b90455a1980c02e5814443e3935251c2/support-core-ui-25.3.1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/f126b63b0f4510c4e93fce6f6d26bbb8/support-compat-25.3.1/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:2:1-80:12
+INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:2:1-80:12
+	package
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:3:5-50
+		INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:2:1-80:12
+		INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:2:1-80:12
+		INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:5:5-71
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:5:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:7:5-72
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:7:22-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:9:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:10:22-76
+permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:11:5-115
+	android:protectionLevel
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:11:78-113
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:11:17-77
+application
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:12:5-78:19
+MERGED from [com.android.support:design:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/9d70d0df2a417cf4d993166cfff99b6f/design-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/9d70d0df2a417cf4d993166cfff99b6f/design-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/7d943bc771bd531b19a1648b19236561/appcompat-v7-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/7d943bc771bd531b19a1648b19236561/appcompat-v7-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/356aa50065b07ad8ce6ef3dbe610ddfa/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/356aa50065b07ad8ce6ef3dbe610ddfa/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a291ec42c4b97e31a45b0bb66c62df9a/firebase-messaging-9.8.0/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a291ec42c4b97e31a45b0bb66c62df9a/firebase-messaging-9.8.0/AndroidManifest.xml:19:5-29:19
+MERGED from [com.android.support:transition:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/aad5c5c186c23c9fd3d0c8bda698b3d8/transition-25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/aad5c5c186c23c9fd3d0c8bda698b3d8/transition-25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/83c62cf18dbf7512ba8e2242225cb8ba/play-services-tasks-9.8.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/83c62cf18dbf7512ba8e2242225cb8ba/play-services-tasks-9.8.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d6a8924ae41ede1b712717dd806efc1a/play-services-basement-9.8.0/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d6a8924ae41ede1b712717dd806efc1a/play-services-basement-9.8.0/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/b213fe1c5b6dc34a9b7eab8e78566c31/support-v4-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/b213fe1c5b6dc34a9b7eab8e78566c31/support-v4-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/e03f815f734469ab6891c7712b5d56b4/animated-vector-drawable-25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/e03f815f734469ab6891c7712b5d56b4/animated-vector-drawable-25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a6d644d8887143b1f8ffa86282acfa8c/support-vector-drawable-25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a6d644d8887143b1f8ffa86282acfa8c/support-vector-drawable-25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/f199acccab6744ad532880b995d7b4fd/support-fragment-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/f199acccab6744ad532880b995d7b4fd/support-fragment-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a368e7dbbbf8e255a0347c0c57be2de1/support-media-compat-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a368e7dbbbf8e255a0347c0c57be2de1/support-media-compat-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/bdbe26b62b3a288becada93755b0a5e8/support-core-utils-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/bdbe26b62b3a288becada93755b0a5e8/support-core-utils-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/b90455a1980c02e5814443e3935251c2/support-core-ui-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/b90455a1980c02e5814443e3935251c2/support-core-ui-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/f126b63b0f4510c4e93fce6f6d26bbb8/support-compat-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/f126b63b0f4510c4e93fce6f6d26bbb8/support-compat-25.3.1/AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:15:9-36
+	android:roundIcon
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:16:9-50
+	android:icon
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:14:9-45
+	android:allowBackup
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:18:9-40
+activity#dispo.train.fcba.cl.flotatrainmovil.views.LoginActivity
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:19:9-23:20
+	android:label
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:21:13-40
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:20:13-48
+activity#dispo.train.fcba.cl.flotatrainmovil.views.HomeActivity
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:24:9-34:20
+	android:screenOrientation
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:27:13-49
+	android:label
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:26:13-56
+	android:theme
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:28:13-56
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:25:13-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:32:27-74
+activity#dispo.train.fcba.cl.flotatrainmovil.views.FlotaActivity
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:35:9-38:59
+	android:label
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:37:13-57
+	android:theme
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:36:13-48
+activity#dispo.train.fcba.cl.flotatrainmovil.views.MarcaActivity
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:39:9-42:59
+	android:label
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:41:13-57
+	android:theme
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:42:13-56
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:40:13-48
+activity#dispo.train.fcba.cl.flotatrainmovil.views.DesmarcaActivity
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:43:9-46:59
+	android:label
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:45:13-60
+	android:theme
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:46:13-56
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:44:13-51
+activity#dispo.train.fcba.cl.flotatrainmovil.views.DispoActivity
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:47:9-50:59
+	android:label
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:49:13-57
+	android:theme
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:50:13-56
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:48:13-48
+activity#dispo.train.fcba.cl.flotatrainmovil.views.CategoriasActivity
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:51:9-54:59
+	android:label
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:53:13-62
+	android:theme
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:54:13-56
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:52:13-53
+activity#dispo.train.fcba.cl.flotatrainmovil.views.RetorqueActivity
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:55:9-58:59
+	android:label
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:57:13-37
+	android:theme
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:58:13-56
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:56:13-51
+activity#dispo.train.fcba.cl.flotatrainmovil.views.DetalleRetorqueActivity
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:59:9-62:59
+	android:label
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:61:13-45
+	android:theme
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:62:13-56
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:60:13-58
+service#dispo.train.fcba.cl.flotatrainmovil.views.MyFirebaseMessagingService
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:64:9-68:19
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:64:18-66
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:65:13-67:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:66:17-78
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:66:25-75
+service#dispo.train.fcba.cl.flotatrainmovil.views.MyFirebaseInstanceIDService
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:69:9-73:19
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:69:18-67
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:70:13-72:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:71:17-80
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:71:25-77
+activity#dispo.train.fcba.cl.flotatrainmovil.views.SettingsActivity
+ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:75:9-77:72
+	android:label
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:77:13-60
+	android:name
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml:76:13-51
+uses-sdk
+INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/9d70d0df2a417cf4d993166cfff99b6f/design-25.3.1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/9d70d0df2a417cf4d993166cfff99b6f/design-25.3.1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/7d943bc771bd531b19a1648b19236561/appcompat-v7-25.3.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/7d943bc771bd531b19a1648b19236561/appcompat-v7-25.3.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/356aa50065b07ad8ce6ef3dbe610ddfa/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/356aa50065b07ad8ce6ef3dbe610ddfa/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a291ec42c4b97e31a45b0bb66c62df9a/firebase-messaging-9.8.0/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a291ec42c4b97e31a45b0bb66c62df9a/firebase-messaging-9.8.0/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:transition:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/aad5c5c186c23c9fd3d0c8bda698b3d8/transition-25.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/aad5c5c186c23c9fd3d0c8bda698b3d8/transition-25.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/83c62cf18dbf7512ba8e2242225cb8ba/play-services-tasks-9.8.0/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/83c62cf18dbf7512ba8e2242225cb8ba/play-services-tasks-9.8.0/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d6a8924ae41ede1b712717dd806efc1a/play-services-basement-9.8.0/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d6a8924ae41ede1b712717dd806efc1a/play-services-basement-9.8.0/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/b213fe1c5b6dc34a9b7eab8e78566c31/support-v4-25.3.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/b213fe1c5b6dc34a9b7eab8e78566c31/support-v4-25.3.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/e03f815f734469ab6891c7712b5d56b4/animated-vector-drawable-25.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/e03f815f734469ab6891c7712b5d56b4/animated-vector-drawable-25.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a6d644d8887143b1f8ffa86282acfa8c/support-vector-drawable-25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a6d644d8887143b1f8ffa86282acfa8c/support-vector-drawable-25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d614803624a6cf04fa2a367964a5f85d/recyclerview-v7-25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d614803624a6cf04fa2a367964a5f85d/recyclerview-v7-25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/f199acccab6744ad532880b995d7b4fd/support-fragment-25.3.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/f199acccab6744ad532880b995d7b4fd/support-fragment-25.3.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a368e7dbbbf8e255a0347c0c57be2de1/support-media-compat-25.3.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a368e7dbbbf8e255a0347c0c57be2de1/support-media-compat-25.3.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/bdbe26b62b3a288becada93755b0a5e8/support-core-utils-25.3.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/bdbe26b62b3a288becada93755b0a5e8/support-core-utils-25.3.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/b90455a1980c02e5814443e3935251c2/support-core-ui-25.3.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/b90455a1980c02e5814443e3935251c2/support-core-ui-25.3.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/f126b63b0f4510c4e93fce6f6d26bbb8/support-compat-25.3.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/f126b63b0f4510c4e93fce6f6d26bbb8/support-compat-25.3.1/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/9d70d0df2a417cf4d993166cfff99b6f/design-25.3.1/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+		ADDED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/javierurzuaberbetty/Documents/Trabajos/Desarrollos/FlotaTrainMovil/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/9d70d0df2a417cf4d993166cfff99b6f/design-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/7d943bc771bd531b19a1648b19236561/appcompat-v7-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/7d943bc771bd531b19a1648b19236561/appcompat-v7-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/aad5c5c186c23c9fd3d0c8bda698b3d8/transition-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/aad5c5c186c23c9fd3d0c8bda698b3d8/transition-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/b213fe1c5b6dc34a9b7eab8e78566c31/support-v4-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/b213fe1c5b6dc34a9b7eab8e78566c31/support-v4-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/e03f815f734469ab6891c7712b5d56b4/animated-vector-drawable-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/e03f815f734469ab6891c7712b5d56b4/animated-vector-drawable-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a6d644d8887143b1f8ffa86282acfa8c/support-vector-drawable-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a6d644d8887143b1f8ffa86282acfa8c/support-vector-drawable-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d614803624a6cf04fa2a367964a5f85d/recyclerview-v7-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d614803624a6cf04fa2a367964a5f85d/recyclerview-v7-25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/f199acccab6744ad532880b995d7b4fd/support-fragment-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/f199acccab6744ad532880b995d7b4fd/support-fragment-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a368e7dbbbf8e255a0347c0c57be2de1/support-media-compat-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a368e7dbbbf8e255a0347c0c57be2de1/support-media-compat-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/bdbe26b62b3a288becada93755b0a5e8/support-core-utils-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/bdbe26b62b3a288becada93755b0a5e8/support-core-utils-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/b90455a1980c02e5814443e3935251c2/support-core-ui-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/b90455a1980c02e5814443e3935251c2/support-core-ui-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/f126b63b0f4510c4e93fce6f6d26bbb8/support-compat-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/f126b63b0f4510c4e93fce6f6d26bbb8/support-compat-25.3.1/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/9d70d0df2a417cf4d993166cfff99b6f/design-25.3.1/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/9d70d0df2a417cf4d993166cfff99b6f/design-25.3.1/AndroidManifest.xml:26:9-47
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a291ec42c4b97e31a45b0bb66c62df9a/firebase-messaging-9.8.0/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a291ec42c4b97e31a45b0bb66c62df9a/firebase-messaging-9.8.0/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/a291ec42c4b97e31a45b0bb66c62df9a/firebase-messaging-9.8.0/AndroidManifest.xml:23:18-87
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:21:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:24:17-71
+permission#dispo.train.fcba.cl.flotatrainmovil.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:26:22-76
+uses-permission#dispo.train.fcba.cl.flotatrainmovil.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:31:13-35:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:dispo.train.fcba.cl.flotatrainmovil
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:34:27-58
+category#dispo.train.fcba.cl.flotatrainmovil
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/3fcf480e2dcac2e669cd65e63ad62ace/firebase-iid-9.8.0/AndroidManifest.xml:44:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:6:9-175
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:6:125-149
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:6:150-173
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/2efc1b4eff5a87ad277ee0c7e806a192/firebase-common-9.8.0/AndroidManifest.xml:6:79-124
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d6a8924ae41ede1b712717dd806efc1a/play-services-basement-9.8.0/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d6a8924ae41ede1b712717dd806efc1a/play-services-basement-9.8.0/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/javierurzuaberbetty/.gradle/caches/transforms-2/files-2.1/d6a8924ae41ede1b712717dd806efc1a/play-services-basement-9.8.0/AndroidManifest.xml:20:20-65

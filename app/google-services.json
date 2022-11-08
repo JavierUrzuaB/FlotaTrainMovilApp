@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "277266457773",
+    "firebase_url": "https://trainmovil.firebaseio.com",
+    "project_id": "trainmovil",
+    "storage_bucket": "trainmovil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277266457773:android:befe69eb81fc9c5a",
+        "android_client_info": {
+          "package_name": "dispo.train.fcba.cl.flotatrainmovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277266457773-lgjbqf1r3flak11tl7sqf5fhn0lj169c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dispo.train.fcba.cl.flotatrainmovil",
+            "certificate_hash": "bb0bcb30e9305384aad26092c165632d66aba1c7"
+          }
+        },
+        {
+          "client_id": "277266457773-8i59e0dpgfk9o94vb803hn2q17jjcu41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS9z4_oHg80Y2GdIr67a2LwVZLM-0vmMM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277266457773-8i59e0dpgfk9o94vb803hn2q17jjcu41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

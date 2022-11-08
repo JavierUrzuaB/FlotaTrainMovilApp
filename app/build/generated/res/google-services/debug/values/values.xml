@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">277266457773-8i59e0dpgfk9o94vb803hn2q17jjcu41.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://trainmovil.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">277266457773</string>
+    <string name="google_api_key" translatable="false">AIzaSyDS9z4_oHg80Y2GdIr67a2LwVZLM-0vmMM</string>
+    <string name="google_app_id" translatable="false">1:277266457773:android:befe69eb81fc9c5a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDS9z4_oHg80Y2GdIr67a2LwVZLM-0vmMM</string>
+    <string name="google_storage_bucket" translatable="false">trainmovil.appspot.com</string>
+    <string name="project_id" translatable="false">trainmovil</string>
+</resources>
